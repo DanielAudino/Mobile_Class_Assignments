@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<tour title="Bavaria, Austrian, and the Alps" baseCost="1799.99">
+<availability start="2011/03/25" end="2011/9/30"/>
+<description>
+This seven day tour takes us through some of the more beautiful areas of Bavaria and
+Austria. Starting from Munich you will visit Garmisch in the Bavarian alps on your
+way to the beautiful city of Salzburg.  From Salzburg, you will spend several days in
+in the mountain regions of Austria.
+</description>
+
+<stop day="1">
+<title>Munich, Germany. </title>
+
+<description>Home of Oktoberfest, great beer and wonderful museums and streets.</description>
+<latitude>48.15</latitude>
+<longitude>11.5833333</longitude>
+<hotels>
+<hotel name="Europa Hotel" stars="3" premium="0.0"/>
+<hotel name="Excelsior Hotel" stars="4" premium="59.99"/>
+<hotel name="Grand Hotel" stars="5" premium="199.99"/>
+</hotels>
+
+</stop>
+
+<stop day="2">
+<title>Garmisch, Germany.</title>
+
+<description>Major destination of the Bavarian alps. Site of a major World Cup ski race.</description>
+<latitude>47.5</latitude>
+<longitude>11.0833333</longitude>
+<hotels>
+<hotel name="Europa Hotel" stars="3" premium="0.0"/>
+</hotels>
+</stop>
+
+<stop day="3">
+<title>Salzburg, Austria. </title>
+
+<description>City of baroque architecture and great music. Love it. Birthplace of
+Mozart. Nice cathedral. </description>
+<latitude>47.8</latitude>
+<longitude>13.0333333</longitude>
+<hotels>
+<hotel name="Europa Hotel" stars="3" premium="0.0"/>
+<hotel name="Excelsior Hotel" stars="4" premium="60.01"/>
+</hotels>
+</stop>
+<stop day="4">
+<title>Zell am see. Austria. </title>
+
+<description>A must visit. Great starting point for hikes in the Austrian alps.  Popular
+amongst the ultra-rich from Europe and the Middle East.</description>
+<latitude>47.3166667</latitude>
+<longitude>12.7833333</longitude>
+<hotels>
+<hotel name="Europa Hotel" stars="3" premium="0.0"/>
+<hotel name="Excelsior Hotel" stars="4" premium="60.01"/>
+<hotel name="Grand Hotel" stars="5" premium="200.01"/>
+</hotels>
+</stop>
+
+<stop day="5,6">
+<title>Kaprun, Austria. </title>
+
+<description>Another good base for hiking.</description>
+<latitude>47.2666667</latitude>
+<longitude>12.7666667</longitude>
+<hotels>
+<hotel name="Kaprun Hotel" stars="3" premium="0.0"/>
+</hotels>
+</stop>
+
+<stop day="7">
+<title>Grossglockner, Austria</title>
+
+<description>Beautiful views. Some of best skiing in Austria.View of
+the highest mountain in the Austrian Alps, the Grossglockner. </description>
+<latitude>47.0825</latitude>
+<longitude>12.7666667</longitude>
+<hotels>
+<hotel name="Europa Hotel" stars="3" premium="0.0"/>
+</hotels>
+</stop>
+
+</tour>

@@ -1,0 +1,33 @@
+h1{
+background-color:blue;
+color:white;
+font-size:40px;
+}
+p#overview{
+font-style:italic;
+}
+#administrative_divisions{
+font-family:sans-serif;
+list-style:none;
+text-indent:5em;
+}
+ul{
+list-style:none;
+color:blue;
+}
+li{
+font-size:.8em;
+font-weight:normal;
+}
+li.province{
+font-weight:bold;
+font-size:1em;
+}
+li.capital{
+font-weight:bold;
+font-style:italic;
+}
+ul li:hover{
+background-color: yellow;
+width:30%;
+}
