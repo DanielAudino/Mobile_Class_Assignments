@@ -1,0 +1,48 @@
+ 
+<HTML>
+<HEAD>
+	<TITLE>Instance method demo</TITLE>
+</HEAD>
+	<BODY>
+   		<SCRIPT>
+			function Aircraft(fName,maximum) {
+          			// set properties here.
+          			this.fName = name;   // Properties
+          			this.maximum = maximum;
+			}
+			function Flight(flightNum,reserv,fName,maximum) {
+       	  			// set properties here.
+          			this.flightNum = flightNum; // Properties
+          			this.fName = fName;
+          			this.flight = new Aircraft(fName,maximum);
+         			this.reserv = reserv;
+          			this.seats = this.flight.maximum-this.reserv;
+        		}
+    			Flight.prototype.bookSeats = function(noSeats){   
+        			if(this.seats>noSeats){
+     					this.seats-=noSeats
+     				}
+     				else throw "Not enough Seats to reserve on\nFlight Number: "+
+     				this.flightNum;
+        		}
+        		var firstFlight = new Flight("1234",20,"First Flight",300);
+        		var secondFlight = new Flight("4321",30,"Scond Flight",100);
+        		try{
+        			firstFlight.bookSeats(100);
+        			secondFlight.bookSeats(10);
+        			alert("Flight Number: "+firstFlight.flightNum+
+        			"\nFlight Name: "+firstFlight.fName+
+        			"\nMax Seats:"+firstFlight.flight.maximum+
+        			"\nSeats Left: "+firstFlight.seats+
+        			"\nFlight Number: "+secondFlight.flightNum+
+        			"\nFlight Name: "+secondFlight.fName+
+        			"\nMax Seats:"+secondFlight.flight.maximum+
+        			"\nSeats Left: "+secondFlight.seats);
+        		}
+        		catch(err){
+        			alert(err);
+        		}
+        </SCRIPT>
+   </H1>
+   </BODY>
+</HTML>

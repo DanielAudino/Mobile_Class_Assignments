@@ -38,19 +38,19 @@ function handleResponse(xml) {
       {
 		ctx.beginPath();
 		ctx.fillStyle =$(this).attr("COLOR");
-        	ctx.arc(centerX, centerY, $(this).find("RADIUS").text()/1000*2, 0, 2 * Math.PI, true);
- ctx.lineWidth = 5;
-        ctx.strokeStyle = "black";
-ctx.stroke();
-ctx.fill();
-ctx.closePath();
-centerX=centerX+100;
-centerY=centerY+100;
+        	ctx.arc(centerX, centerY, $(this).find("RADIUS").text()/2000*2, 0, 2 * Math.PI, true);
+ 		ctx.lineWidth = 5;
+       	 	ctx.strokeStyle = "black";
+		ctx.stroke();
+		ctx.fill();
+		ctx.closePath();
+		centerX=centerX+70;
+		centerY=centerY+50;
 	});
 }
     </script>
   </head>
   <body>
-    <canvas id="myCanvas" width="1024" height="1000"></canvas>
+    <canvas id="myCanvas" width="2000" height="1000"></canvas>
   </body>
 </html>
